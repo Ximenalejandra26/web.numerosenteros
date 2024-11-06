@@ -9,3 +9,10 @@ let valor;
 for (let i = 0; i < 5; i++) {
     valor = parseInt(prompt('Ingresa un valor entero:'));
 }
+
+    // Se usa if para verificar si (valor < 0) el valor es negativo mientras que, (valor > 0), el valor es positivo 
+    if (valor < 0) {
+        negativos++;
+    } else if (valor > 0) { 
+        positivos++;
+    }
